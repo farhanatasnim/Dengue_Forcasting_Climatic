@@ -3,17 +3,17 @@
 
 ## Ask
 
-What topic are you exploring?
+* What topic are you exploring?
 Ans: In this study I am exploring the  dependency of dengue outbreak on climatic factor.
-● What is the problem you are trying to solve?
+* What is the problem you are trying to solve?
 Answer: our task is to predict the number of dengue cases each week (in each location) based on the climatic condition and an understanding of the relationship between climate and dengue dynamics has been established in this study. This can improve research initiatives and resource allocation to help fight life-threatening epidemics with our proposed early warning system.
-● What metrics will you use to measure your data to achieve your objective?
+* What metrics will you use to measure your data to achieve your objective?
 Answer: Accuracy
-● Who are the stakeholders?
+* Who are the stakeholders?
 Answer: Policy makes, Care givers
-● Who is your audience?
+* Who is your audience?
 Answer: 
-● How can your insights help your client make decisions?
+* How can your insights help your client make decisions?
 
 ## Prepare 
 
