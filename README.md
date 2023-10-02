@@ -25,7 +25,8 @@ We analyze the data from a paper An ensemble neural network approach to forecast
 ## Process
 
 ## Analyze
-<img align="right" width="1000" height="700" src="https://github.com/farhanatasnim/Dengue_Forcasting_Climatic/blob/main/Images/Figure1.png">
+
+![Example Image](Images/Figure1.png)
 
 ## Act
 
