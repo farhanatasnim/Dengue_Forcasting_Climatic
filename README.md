@@ -4,17 +4,17 @@
 ## Ask
 
 * What topic are you exploring?<br>
-Ans: In this study I am exploring the  dependency of dengue outbreak on climatic factor.
+Ans: In this study, I am exploring the  dependency of dengue outbreaks on climatic factors.
 * What is the problem you are trying to solve? <br>
-Answer: our task is to predict the number of dengue cases each week (in each location) based on the climatic condition and an understanding of the relationship between climate and dengue dynamics has been established in this study. This can improve research initiatives and resource allocation to help fight life-threatening epidemics with our proposed early warning system.
+Answer: our task is to predict the number of dengue cases each week (in each location) based on the climatic conditions and an understanding of the relationship between climate and dengue dynamics has been established in this study. This can improve research initiatives and resource allocation to help fight life-threatening epidemics with our proposed early warning system.
 * What metrics will you use to measure your data to achieve your objective? <br>
 Answer: Accuracy
 * Who are the stakeholders? <br>
-Answer: Patients, Doctors, Policy makers, Care givers, Hospital administrators
+Answer: Patients, Doctors, Policy makers, Caregivers, Hospital administrators
 * Who is your audience? <br>
-Answer: Policy makers, Care givers
+Answer: Policymakers, Caregivers
 * How can your insights help your client make decisions? <br>
-Answer: By allocating resources based on the forcasting.
+Answer: By allocating resources based on forecasting.
 
 ## Prepare 
 
