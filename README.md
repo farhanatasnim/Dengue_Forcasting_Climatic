@@ -25,9 +25,15 @@ We analyze the data from a paper An ensemble neural network approach to forecast
 ### Limitations
 * Since we utilized data from three specific regions, it may not accurately reflect the characteristics of other regions.
 * We're only looking at rainfall data, but there might be other weather and cultural factors that are important for predicting dengue outbreaks.
+* 
 ## Process
 * R is used to load, transform, analyzed and visualize data.
-* As part of our data processing, we start by checking if any data files have empty entries. After that, we change the week numbers so that they always go up as the years pass.
+* As part of our data processing, we start by checking if any data files have empty entries.
+* After that, we change the week number variable so that they always  it is monotounsly increasing over the years. For example:
+```{r}
+data_wk_iquitos <- data_iquitos %>% 
+  mutate(Time_in_weeks= (Year-2002)*52+Week)
+```  
  
 
 ## Analyze
