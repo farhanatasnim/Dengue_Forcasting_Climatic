@@ -1,6 +1,6 @@
 # Forcasting Dengue Outbreaks based on Climatic data
 ## A Google Data Analytics Professional Certificate Capstone Project Case Study
-
+In this capstone project, we would like to analyze climatic dengue data from three different regions namely : San Juan, Iquitos, and Ahmedabad, to see how rainfall co-relates to dengue outbreak and explore different prediction models to forecast dengue outbreak based on climatic factors. These insights will be helpful for policy makers, caregivers, and hospital administrators to guide and allocate resources accordingly. 
 ## Ask
 
 * What topic are you exploring?<br>
