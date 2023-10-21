@@ -30,11 +30,11 @@ We analyze the data from a paper An ensemble neural network approach to forecast
 * R is used to load, transform, analyzed and visualize data.
 * As part of our data processing, we start by checking if any data files have empty entries.
 * After that, we change the week number variable so that they always  it is monotounsly increasing over the years. For example:
+
 ```{r}
 data_wk_iquitos <- data_iquitos %>% 
   mutate(Time_in_weeks= (Year-start_year)*number_of_weeks_in_a_year+Week)
-```  
- 
+```
 
 ## Analyze
 
