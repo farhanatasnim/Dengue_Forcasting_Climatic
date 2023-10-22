@@ -8,7 +8,7 @@ Ans: In this study, we am exploring the  dependency of dengue outbreaks on clima
 * What is the problem we are trying to solve? <br>
 Answer: our task is to predict the number of dengue cases each week (in each location) based on the climatic conditions and an understanding of the relationship between climate and dengue dynamics has been established in this study. This can improve research initiatives and resource allocation to help fight life-threatening epidemics with our proposed early warning system.
 * What metrics will be used to measure our data to achieve our objective? <br>
-Answer: Accuracy
+Answer: Mean Squared Error between actual and predicted number of cases.
 * Who are the stakeholders? <br>
 Answer: Patients, Doctors, Policy makers, Caregivers, Hospital administrators
 * Who is our audience? <br>
@@ -45,14 +45,15 @@ data_wk_iquitos <- data_iquitos %>%
 ![Example Image](Images/Figure2)
 
 * By looking at the above graph, it's evident that dengue cases increased shortly after heavy rainfall. For instance, in Ahmedabad, dengue cases peaked in week 40, about 5 to 6 weeks after the highest rainfall.
-* Grainger casuality test(GC test):
-* 
+* Grainger casuality test(GC test): 
+* We performed Grainger casuality test between dengue cases and rainfall timeseries in order to find casual relationship between the two.
   
 |  Cases Vs Rainfall             | Sanjuan       | Iquitos       |  Ahmedabad    |
 | ------------- | ------------- | ------------- | ------------- |
 | GC test(order = 2)             | 0.005113      |0.2854         |0.01814        |
 | GC test(order = 4)  | 0.02858  |0.0567  |4.244e^-11  |
- 
+
+Looking at the table, we observed that GC is favorable for Sanjuan and Ahmedabad when the order is two. However, when the order is four, GC is favorable for all.
 ## Act
 
 ## Share
