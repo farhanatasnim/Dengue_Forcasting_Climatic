@@ -45,13 +45,13 @@ data_wk_iquitos <- data_iquitos %>%
 ![Example Image](Images/Figure2)
 
 * By looking at the above graph, it's evident that dengue cases increased shortly after heavy rainfall. For instance, in Ahmedabad, dengue cases peaked in week 40, about 5 to 6 weeks after the highest rainfall.
-* Grainger casuality test:
+* Grainger casuality test(GC test):
 * 
   
-|               | Sanjuan       | Iquitos       |  Ahmedabad       |
+|  Cases Vs Rainfall             | Sanjuan       | Iquitos       |  Ahmedabad    |
 | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  |Content Cell  |Content Cell  |
-| Content Cell  | Content Cell  |Content Cell  |Content Cell  |
+| GC test(order = 2)             | 0.005113      |0.2854         |0.01814        |
+| GC test(order = 4)  | 0.02858  |0.0567  |4.244e^-11  |
  
 ## Act
 
