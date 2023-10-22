@@ -53,7 +53,7 @@ data_wk_iquitos <- data_iquitos %>%
 | GC test(order = 2)             | 0.005113      |0.2854         |0.01814        |
 | GC test(order = 4)  | 0.02858  |0.0567  |4.244e^-11  |
 
-Looking at the table, we observed that GC is favorable for Sanjuan and Ahmedabad when the order is two. However, when the order is four, GC is favorable for all.
+* Looking at the table, we observed that GC is favorable for Sanjuan and Ahmedabad when the order is two. However, when the order is four, GC is favorable for all.
 ## Act
 
 ## Share
