@@ -4,7 +4,7 @@ In this capstone project, we would like to analyze climatic dengue data from thr
 ## Ask
 
 * What topic are we exploring?<br>
-Ans: In this study, we am exploring the  dependency of dengue outbreaks on climatic factors.
+Ans: In this study, we am exploring the  dependency/relationship of dengue outbreaks on climatic factors.
 * What is the problem we are trying to solve? <br>
 Answer: our task is to predict the number of dengue cases each week (in each location) based on the climatic conditions and an understanding of the relationship between climate and dengue dynamics has been established in this study. This can improve research initiatives and resource allocation to help fight life-threatening epidemics with our proposed early warning system.
 * What metrics will be used to measure our data to achieve our objective? <br>
