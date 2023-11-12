@@ -44,6 +44,7 @@ Figure 1: depicts the incidence of Dengue cases (highlighted in red) and corresp
 * The graphs show a clear link between rainfall and dengue cases in Ahmedabad. However, it's challenging to spot the same relationship in the other two regions.
 
 ![Example Image](Images/Figure2)
+Figure 2: examines the timing of most rainfalls throughout the year by overlaying data from multiple years onto a single annual scale on the top plot. Likewise, in the bottom plot, we employed a similar approach to identify the peak period of the year during which the influx of dengue cases is most pronounced.
 
 * By looking at the above graph, it's evident that dengue cases increased shortly after heavy rainfall. For instance, in Ahmedabad, dengue cases peaked in week 40, about 5 to 6 weeks after the highest rainfall.
 * Grainger casuality test(GC test): 
