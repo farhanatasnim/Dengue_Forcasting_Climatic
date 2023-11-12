@@ -39,7 +39,7 @@ data_wk_iquitos <- data_iquitos %>%
 ## Analyze
 
 ![Example Image](Images/Figure1.png)
-Fig. 1. Dengue cases (red) and rainfall (blue) data of San Juan, Iquitos, and Ahmedabad (incidence per 10 000 population)
+Figure 1: depicts the incidence of Dengue cases (highlighted in red) and corresponding rainfall data (represented in blue) for San Juan, Iquitos, and Ahmedabad, with incidence rates per 10,000 population.
 * We plotted dengue cases vs week and amount of rainfall vs week on top and bottom subplots respectively for three regions (Sanjuan, Iquitos, and Ahmedabad) in order to find the relationship between laboratory confirmed dengue cases and the amount of rainfall. Dengue cases (incidence per 10 000 population) are shown in red in the top row and rainfalls are shown in blue in the bottom row.
 * The graphs show a clear link between rainfall and dengue cases in Ahmedabad. However, it's challenging to spot the same relationship in the other two regions.
 
