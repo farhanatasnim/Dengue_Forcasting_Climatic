@@ -60,9 +60,9 @@ Figure 2: examines the timing of most rainfalls throughout the year by overlayin
 
 | Model            | Mean Absolute Error(Sanjuan)       |Mean Absolute Error(Iquitos)        | Mean Absolute Error(Ahmedabad)      |
 | ------------- | ------------- | ------------- | ------------- |
-| Polynomial Regression(Degree = 2)             | 30.743      |7.367         |8.126       |
-| Polynomial Regression(Degree = 5)  |31.044  |7.381  |8.113  |
-| Randon Forest  |34.954  |8.99  |10.087  |
+| Polynomial Regression (Degree = 2)             | 30.743      |7.367         |8.126       |
+| Polynomial Regression (Degree = 5)  |31.044  |7.381  |8.113  |
+| Random Forest  |34.954  |8.99  |10.087  |
 ## Act
 
 ## Share
