@@ -50,7 +50,7 @@ Figure 2: examines the timing of most rainfalls throughout the year by overlayin
 * Granger casuality test(GC test): The Granger causality test is a statistical hypothesis test used to determine whether one time series can predict another.
 * We performed Granger casuality test between dengue cases and rainfall timeseries in order to find casual relationship between the two.
   
-|  Cases Vs Rainfall             | Sanjuan       | Iquitos       |  Ahmedabad    |
+|  Cases Vs Rainfall             | p-value Sanjuan       |p-value Iquitos       | p-value Ahmedabad    |
 | ------------- | ------------- | ------------- | ------------- |
 | GC test(order = 2)             | 0.005113      |0.2854         |0.01814        |
 | GC test(order = 4)  | 0.02858  |0.0567  |4.244e^-11  |
