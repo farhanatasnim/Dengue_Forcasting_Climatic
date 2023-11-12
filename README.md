@@ -79,7 +79,7 @@ data_wk_iquitos <- data_iquitos %>%
 
 In summary, the data for each location is initially divided into short-term and long-term periods. Then, within each period, the majority of the data is allocated to training, with a smaller portion set aside for testing. This division allows for the evaluation of models on both short-term and long-term trends in the data.
 
-* The following table shows the prediction for 52 weeks of test data for three different models:
+**Table 2: Shows the prediction for 52 weeks of test data for three different models:**
 
 
 | Model            | Mean Absolute Error (Sanjuan)       |Mean Absolute Error (Iquitos)        | Mean Absolute Error (Ahmedabad)      |
