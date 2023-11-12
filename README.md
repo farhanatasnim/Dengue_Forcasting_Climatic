@@ -39,12 +39,12 @@ data_wk_iquitos <- data_iquitos %>%
 ## Analyze
 
 ![Example Image](Images/Figure1.png)
-Figure 1: depicts the incidence of Dengue cases (highlighted in red) and corresponding rainfall data (represented in blue) for San Juan, Iquitos, and Ahmedabad, with incidence rates per 10,000 population.
+**Figure 1:** depicts the incidence of Dengue cases (highlighted in red) and corresponding rainfall data (represented in blue) for San Juan, Iquitos, and Ahmedabad, with incidence rates per 10,000 population.
 * We plotted dengue cases vs week and amount of rainfall vs week on top and bottom subplots respectively for three regions (Sanjuan, Iquitos, and Ahmedabad) in order to find the relationship between laboratory confirmed dengue cases and the amount of rainfall. Dengue cases (incidence per 10 000 population) are shown in red in the top row and rainfalls are shown in blue in the bottom row.
 * The graphs show a clear link between rainfall and dengue cases in Ahmedabad. However, it's challenging to spot the same relationship in the other two regions.
 
 ![Example Image](Images/Figure2)
-Figure 2: examines the timing of most rainfalls throughout the year by overlaying data from multiple years onto a single annual scale on the top plot. Likewise, in the bottom plot, we employed a similar approach to identify the peak period of the year during which the influx of dengue cases is most pronounced.
+**Figure 2:** examines the timing of most rainfalls throughout the year by overlaying data from multiple years onto a single annual scale on the top plot. Likewise, in the bottom plot, we employed a similar approach to identify the peak period of the year during which the influx of dengue cases is most pronounced.
 
 * By looking at the above graph, it's evident that dengue cases increased shortly after heavy rainfall. For instance, in Ahmedabad, dengue cases peaked in week 40, about 5 to 6 weeks after the highest rainfall.
 * Granger casuality test(GC test): The Granger causality test is a statistical hypothesis test used to determine whether one time series can predict another.
