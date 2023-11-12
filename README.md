@@ -49,6 +49,7 @@ data_wk_iquitos <- data_iquitos %>%
 * By looking at the above graph, it's evident that dengue cases increased shortly after heavy rainfall. For instance, in Ahmedabad, dengue cases peaked in week 40, about 5 to 6 weeks after the highest rainfall.
 * Granger casuality test(GC test): The Granger causality test is a statistical hypothesis test used to determine whether one time series can predict another.
 * We performed Granger casuality test between dengue cases and rainfall timeseries in order to find casual relationship between the two.
+
  **Table 1: Granger Causality Test Results for Cases Vs Rainfall in Different Regions**
   
 |  Cases Vs Rainfall             | p-value Sanjuan       |p-value Iquitos       | p-value Ahmedabad    |
