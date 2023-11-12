@@ -57,12 +57,37 @@ Figure 2: examines the timing of most rainfalls throughout the year by overlayin
 
 * Looking at the table, we observed that GC is favorable for Sanjuan and Ahmedabad when the order is two. However, when the order is four, GC is favorable for all.
 
+* Train-Test data split for prediction:
+*     Length of Data:
+        San Juan: 1196 observations covering the years 1991–2012.
+        Iquitos: 598 observations covering the years 2002–2012.
+        Ahmedabad: 424 observations covering the years 2005–2012.
+
+    Train and Test Split (Short-Term):
+        For short-term analysis, the data is split into training and testing sets.
+        San Juan: 1170 observations are used for training, and 26 observations are reserved for testing.
+        Iquitos: 572 observations for training, and 26 for testing.
+        Ahmedabad: 398 observations for training, and 26 for testing.
+
+    Train and Test Split (Long-Term):
+        For long-term analysis, a different split is used.
+        San Juan: 1144 observations for training, and 52 for testing.
+        Iquitos: 546 observations for training, and 52 for testing.
+        Ahmedabad: 372 observations for training, and 52 for testing.
+
+In summary, the data for each location is initially divided into short-term and long-term periods. Then, within each period, the majority of the data is allocated to training, with a smaller portion set aside for testing. This division allows for the evaluation of models on both short-term and long-term trends in the data.
+
+* The following table shows the prediction for 52 weeks of test data for three different models:
+
 
 | Model            | Mean Absolute Error (Sanjuan)       |Mean Absolute Error (Iquitos)        | Mean Absolute Error (Ahmedabad)      |
 | ------------- | ------------- | ------------- | ------------- |
 | Polynomial Regression (Degree = 2)             | 30.743      |7.367         |8.126       |
 | Polynomial Regression (Degree = 5)  |31.044  |7.381  |8.113  |
 | Random Forest  |34.954  |8.99  |10.087  |
+
+* These MAE values represent the average absolute differences between the predicted values from each model and the actual values for the respective locations. Lower MAE values indicate better predictive performance, suggesting that, based on MAE alone, the Polynomial Regression models with Degree = 2 and 5 perform better than the Random Forest model across all three locations.
+  
 ## Act
 
 ## Share
