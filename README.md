@@ -58,18 +58,18 @@ Figure 2: examines the timing of most rainfalls throughout the year by overlayin
 * Looking at the table, we observed that GC is favorable for Sanjuan and Ahmedabad when the order is two. However, when the order is four, GC is favorable for all.
 
 * **Train-Test data split for prediction:**
-  Length of Data:
+  - Length of Data:
         San Juan: 1196 observations covering the years 1991–2012.
         Iquitos: 598 observations covering the years 2002–2012.
         Ahmedabad: 424 observations covering the years 2005–2012.
 
-  Train and Test Split (Short-Term):
+  - Train and Test Split (Short-Term):
         For short-term analysis, the data is split into training and testing sets.
         San Juan: 1170 observations are used for training, and 26 observations are reserved for testing.
         Iquitos: 572 observations for training, and 26 for testing.
         Ahmedabad: 398 observations for training, and 26 for testing.
 
-  Train and Test Split (Long-Term):
+  - Train and Test Split (Long-Term):
         For long-term analysis, a different split is used.
         San Juan: 1144 observations for training, and 52 for testing.
         Iquitos: 546 observations for training, and 52 for testing.
