@@ -82,8 +82,8 @@ In summary, the data for each location is initially divided into short-term and 
 
 | Model            | Mean Absolute Error (Sanjuan)       |Mean Absolute Error (Iquitos)        | Mean Absolute Error (Ahmedabad)      |
 | ------------- | ------------- | ------------- | ------------- |
-| Polynomial Regression (Degree = 2)             | 30.743      |7.367         |8.126       |
-| Polynomial Regression (Degree = 5)  |31.044  |7.381  |8.113  |
+| Polynomial Regression (Deg = 2)             | 30.743      |7.367         |8.126       |
+| Polynomial Regression (Deg = 5)  |31.044  |7.381  |8.113  |
 | Random Forest  |34.954  |8.99  |10.087  |
 
 * These MAE values represent the average absolute differences between the predicted values from each model and the actual values for the respective locations. Lower MAE values indicate better predictive performance, suggesting that, based on MAE alone, the Polynomial Regression models with Degree = 2 and 5 perform better than the Random Forest model across all three locations.
