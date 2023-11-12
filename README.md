@@ -58,7 +58,7 @@ Figure 2: examines the timing of most rainfalls throughout the year by overlayin
 * Looking at the table, we observed that GC is favorable for Sanjuan and Ahmedabad when the order is two. However, when the order is four, GC is favorable for all.
 
 
-| Model            | Mean Absolute Error(Sanjuan)       |Mean Absolute Error(Iquitos)        | Mean Absolute Error(Ahmedabad)      |
+| Model            | Mean Absolute Error (Sanjuan)       |Mean Absolute Error (Iquitos)        | Mean Absolute Error (Ahmedabad)      |
 | ------------- | ------------- | ------------- | ------------- |
 | Polynomial Regression (Degree = 2)             | 30.743      |7.367         |8.126       |
 | Polynomial Regression (Degree = 5)  |31.044  |7.381  |8.113  |
