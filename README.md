@@ -46,7 +46,7 @@ data_wk_iquitos <- data_iquitos %>%
 ![Example Image](Images/Figure2)
 **Figure 2:** examines the timing of most rainfalls throughout the year by overlaying data from multiple years onto a single annual scale on the top plot. Likewise, in the bottom plot, we employed a similar approach to identify the peak period of the year during which the influx of dengue cases is most pronounced.
 
-* By looking at the above graph, it's evident that dengue cases increased shortly after heavy rainfall. For instance, in Ahmedabad, dengue cases peaked in week 40, about 5 to 6 weeks after the highest rainfall.
+* By looking at the above graph, it's evident that dengue cases increased shortly after heavy rainfall. For instance, in Ahmedabad, dengue cases peaked in week 40, about 5 to 6 weeks after the highest rainfall. However, for the other two regions, it is hard to observe that.
 * Granger casuality test(GC test): The Granger causality test is a statistical hypothesis test used to determine whether one time series can predict another.
 * We performed Granger casuality test between dengue cases and rainfall timeseries in order to find casual relationship between the two.
 
