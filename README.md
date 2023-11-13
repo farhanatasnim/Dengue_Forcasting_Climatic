@@ -91,5 +91,7 @@ In summary, the data for each location is initially divided into short-term and 
 * These MAE values represent the average absolute differences between the predicted values from each model and the actual values for the respective locations. Lower MAE values indicate better predictive performance, suggesting that, based on MAE alone, the Polynomial Regression models with Degree = 2 and 5 perform better than the Random Forest model across all three locations.
   
 ## Act
+* A clear association exists between rainfall and the surge in dengue cases; however, this correlation is non-linear, as evidenced by our analysis. Given the time lag between peak rainfall and the notable increase in dengue cases, it is imperative for healthcare facilities and policymakers to strategically allocate resources during this critical period.
+
 
 ## Share
