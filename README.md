@@ -92,6 +92,11 @@ In summary, the data for each location is initially divided into short-term and 
   
 ## Act
 * A clear association exists between rainfall and the surge in dengue cases; however, this correlation is non-linear, as evidenced by our analysis. Given the time lag between peak rainfall and the notable increase in dengue cases, it is imperative for healthcare facilities and policymakers to strategically allocate resources during this critical period.
+* Accurate forecasting of dengue cases may require more than just rainfall data. It is essential to incorporate other meteorological, social, and cultural factors into the forecasting process. Consequently, conducting a comprehensive, long-term population study that encompasses all relevant factors becomes necessary for regions vulnerable to dengue endemicity.
+*Given the non-linear nature of the correlation, employing neural networks, as demonstrated in the original paper, can enhance predictive accuracy.
+
+
+
 
 
 ## Share
