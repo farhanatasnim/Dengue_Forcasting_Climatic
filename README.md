@@ -8,7 +8,7 @@ Ans: In this study, we am exploring the  dependency/relationship of dengue outbr
 * What is the problem we are trying to solve? <br>
 Answer: our task is to predict the number of dengue cases each week (in each location) based on the climatic conditions and an understanding of the relationship between climate and dengue dynamics has been established in this study. This can improve research initiatives and resource allocation to help fight life-threatening epidemics with our proposed early warning system.
 * What metrics will be used to measure our data to achieve our objective? <br>
-Answer: Mean Squared Error between actual and predicted number of cases.
+Answer: Mean Absolute Error between actual and predicted number of cases.
 * Who are the stakeholders? <br>
 Answer: Patients, Doctors, Policy makers, Caregivers, Hospital administrators
 * Who is our audience? <br>
@@ -50,7 +50,7 @@ data_wk_iquitos <- data_iquitos %>%
 * Granger casuality test(GC test): The Granger causality test is a statistical hypothesis test used to determine whether one time series can predict another.
 * We performed Granger casuality test between dengue cases and rainfall timeseries in order to find casual relationship between the two.
 
- **Table 1: Granger Casuality Test Results for Cases Vs Rainfall in Different Regions**
+ **Table 1: Granger Casuality Test Results for "Cases Vs Rainfall" in Different Regions**
   
 |  Cases Vs Rainfall             | p-value Sanjuan       |p-value Iquitos       | p-value Ahmedabad    |
 | ------------- | ------------- | ------------- | ------------- |
