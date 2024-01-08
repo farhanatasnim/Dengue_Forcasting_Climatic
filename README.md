@@ -25,7 +25,7 @@ We analyze the data from the paper, "An ensemble neural network approach to fore
 ### Limitations
 * Since we utilized data from three specific regions, it may not accurately reflect the characteristics of other regions.
 * We're only looking at rainfall data, but there might be other weather and cultural factors that are important for predicting dengue outbreaks.
-* 
+ 
 ## Process
 * R is used to load, transform, analyzed and visualize data.
 * As part of our data processing, we start by checking if any data files have empty entries.
