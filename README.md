@@ -29,7 +29,7 @@ We analyze the data from the paper, "An ensemble neural network approach to fore
 ## Process
 * R is used to load, transform, analyzed and visualize data.
 * As part of our data processing, we start by checking if any data files have empty entries.
-* After that, we change the week number variable so that they it is always monotounsly increasing over the years. For example:
+* After that, we change the week number variable so that it is always monotounsly increasing over the years. For example:
 
 ```{r}
 data_wk_iquitos <- data_iquitos %>% 
