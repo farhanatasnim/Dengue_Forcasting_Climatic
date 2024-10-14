@@ -92,7 +92,7 @@ In summary, the data for each location is initially divided into short-term and 
 
 
 ## Share
-Check out the daashboard on Tableau Public:
+Check out the daashboard on **Tableau Public**:
 https://public.tableau.com/views/ClimaticDengueForcast/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
 
   
